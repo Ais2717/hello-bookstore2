@@ -1,6 +1,6 @@
 services:
   app:
-    image: hello-bookstore:dev
+    image: ghcr.io/ais2717/hello-bookstore:latest
     container_name: bookstore-app
     build:
       context: .
